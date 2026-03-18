@@ -8,6 +8,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="me" href="https://securitybrief.jasonjaysmart.com/@jasonjaysmart">
   <link rel="stylesheet" href="assets/styles.css" />
 </head>
 <body>
@@ -23,6 +24,7 @@
         </div>
       </div>
       <nav class="site-nav" aria-label="Primary">
+        <a href="#preview">Preview</a>
         <a href="#about-community">About</a>
         <a href="#support">Support</a>
         <a href="#links">Links</a>
@@ -33,12 +35,12 @@
   <main id="content">
     <section class="hero">
       <div class="hero__banner">
-        <img src="assets/jason-banner.jpg" alt="Placeholder header image for The Security Brief. Replace with Jason's actual header image." />
+        <img src="assets/header-placeholder.jpg" alt="Header image for The Security Brief." />
       </div>
       <div class="wrap hero__content">
         <div class="hero__card">
           <div class="hero__identity">
-            <img class="avatar" src="assets/jason-avatar.png" alt="Placeholder portrait for Jason Jay Smart. Replace with Jason's actual profile image." />
+            <img class="avatar" src="assets/profile-placeholder.jpg" alt="Portrait of Jason Jay Smart." />
             <div class="hero__text">
               <p class="eyebrow">Official host page</p>
               <h1>Jason Jay Smart</h1>
@@ -67,18 +69,56 @@
           <p class="section-label">Verification</p>
           <h2>This is the official host page for The Security Brief</h2>
           <p>
-            Use this page as the website field on the Mastodon host profile. It contains the required <code>rel="me"</code> verification link back to Jason’s profile.
+            This page is the canonical public identity page for Jason Jay Smart and The Security Brief. It can be used as the website field on the host Mastodon profile and as the primary landing page for new participants.
           </p>
         </div>
         <div class="verification-box">
           <p class="verification-box__label">Verified Mastodon profile</p>
           <p><a href="https://securitybrief.jasonjaysmart.com/@jasonjaysmart" target="_blank" rel="noopener">securitybrief.jasonjaysmart.com/@jasonjaysmart</a></p>
-          <p class="small-muted">A real <code>rel="me"</code> link is embedded below in the rendered HTML source.</p>
+          <p class="small-muted">Mastodon verification is handled in the page markup and does not need to be explained to visitors.</p>
         </div>
 
         <!-- Required for Mastodon verification -->
         <a class="visually-hidden" rel="me" href="https://securitybrief.jasonjaysmart.com/@jasonjaysmart">Mastodon</a>
       </div>
+    </section>
+
+    <section class="wrap section" id="preview">
+      <article class="section-card">
+        <div class="section-header">
+          <div>
+            <p class="section-label">Preview</p>
+            <h2>Latest from The Security Brief</h2>
+          </div>
+          <p class="small-muted">Prototype version using sample posts. Later this can be swapped for a live Mastodon feed preview.</p>
+        </div>
+
+        <div class="post-preview-grid">
+          <article class="post-card">
+            <div class="post-card__meta">
+              <span class="post-pill">Pinned</span>
+              <span>Welcome</span>
+            </div>
+            <p>Welcome to The Security Brief. This space tracks national security developments, authoritarian power dynamics, and strategic conflict in real time. If you're working on these issues, introduce yourself and share what you're currently monitoring.</p>
+          </article>
+
+          <article class="post-card">
+            <div class="post-card__meta">
+              <span class="post-pill">Guidance</span>
+              <span>How to participate</span>
+            </div>
+            <p>Bring sources, context, and corrections. Signal-first discussion helps everyone track events more clearly and build a durable record beyond the news cycle.</p>
+          </article>
+
+          <article class="post-card">
+            <div class="post-card__meta">
+              <span class="post-pill">Access</span>
+              <span>Mobile + apps</span>
+            </div>
+            <p>You can follow and participate in this space from any Mastodon-compatible mobile app. Search for the server domain securitybrief.jasonjaysmart.com when signing in.</p>
+          </article>
+        </div>
+      </article>
     </section>
 
     <section class="wrap grid section">
@@ -155,13 +195,12 @@
 
         <section class="section-card">
           <p class="section-label">Prototype notes</p>
-          <h2>How to use this page now</h2>
+          <h2>How to evolve this page</h2>
           <ol class="notes-list">
-            <li>Upload Jason’s header image as <code>assets/header-placeholder.jpg</code>.</li>
-            <li>Upload Jason’s profile image as <code>assets/profile-placeholder.jpg</code>.</li>
-            <li>Publish this folder with GitHub Pages.</li>
-            <li>Paste the GitHub Pages URL into the Mastodon website field to test verification.</li>
-            <li>Hand the page to V as the UI prototype for the WordPress multisite template.</li>
+            <li>Replace the placeholder support buttons with Stripe plugin modules.</li>
+            <li>Swap the sample preview cards for live Mastodon posts or RSS-fed excerpts.</li>
+            <li>Keep the verification link hidden in markup rather than explaining it in the UI.</li>
+            <li>Hand this page to V as the visual model for the WordPress multisite template.</li>
           </ol>
         </section>
       </aside>

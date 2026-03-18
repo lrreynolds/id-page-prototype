@@ -138,6 +138,8 @@ code {
   border-radius: 16px;
   padding: 20px 20px 18px;
   backdrop-filter: blur(6px);
+  position: relative;
+  z-index: 2;
 }
 
 .hero__links-card h2 {

@@ -126,25 +126,56 @@ code {
 
 .hero__card--split {
   display: grid;
-  grid-template-columns: 1.7fr 0.9fr;
+  grid-template-columns: 1fr 320px;
   gap: 24px;
   align-items: start;
 }
 
 .hero__links-card {
-  background: rgba(255,255,255,0.04);
+  background: linear-gradient(180deg, rgba(255,255,255,0.04), rgba(255,255,255,0.02));
   border: 1px solid rgba(255,255,255,0.08);
-  border-radius: 24px;
-  padding: 24px;
+  border-radius: 16px;
+  padding: 20px 20px 18px;
+  backdrop-filter: blur(6px);
 }
 
 .hero__links-card h2 {
-  margin-top: 0;
-  margin-bottom: 16px;
+  font-size: 16px;
+  margin: 6px 0 12px;
+  font-weight: 600;
+  color: rgba(255,255,255,0.95);
 }
 
-@media (max-width: 900px) {
-  .hero__card--split {
-    grid-template-columns: 1fr;
-  }
+.hero__links-card .section-label {
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: rgba(255,255,255,0.5);
+}
+
+.link-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.link-list li {
+  margin-bottom: 10px;
+}
+
+.link-list a {
+  display: block;
+  padding: 10px 12px;
+  border-radius: 10px;
+  background: rgba(255,255,255,0.03);
+  border: 1px solid rgba(255,255,255,0.06);
+  text-decoration: none;
+  color: rgba(255,255,255,0.85);
+  transition: all 0.15s ease;
+}
+
+.link-list a:hover {
+  background: rgba(255,255,255,0.06);
+  border-color: rgba(255,255,255,0.12);
+  transform: translateY(-1px);
 }

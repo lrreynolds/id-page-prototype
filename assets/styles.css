@@ -194,3 +194,15 @@ code {
     margin-top: 0;
   }
 }
+
+@media (max-width: 900px) {
+  .hero__card--split {
+    grid-template-columns: 1fr;
+  }
+
+  .hero__links-card {
+    margin-top: 20px;
+    width: 100%;
+    max-width: 100%;
+  }
+}

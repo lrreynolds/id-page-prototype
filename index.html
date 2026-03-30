@@ -3,8 +3,8 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>The Security Brief — Official Host Page</title>
-  <meta name="description" content="Official host page for The Security Brief, a Commonshub community hosted by Jason Jay Smart." />
+  <title>The Security Brief — Community Hub</title>
+  <meta name="description" content="The official community hub for The Security Brief, hosted by Jason Jay Smart on Commonshub." />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -20,12 +20,13 @@
         <div class="brand__mark">C</div>
         <div>
           <div class="brand__eyebrow">Commonshub Prototype</div>
-          <div class="brand__name">Identity / Financial Support Page</div>
+          <div class="brand__name">Community Hub</div>
         </div>
       </div>
       <nav class="site-nav" aria-label="Primary">
         <a href="#preview">Preview</a>
         <a href="#about-community">About</a>
+        <a href="#join">Join</a>
         <a href="#support">Support</a>
         <a href="#links">Links</a>
       </nav>
@@ -33,51 +34,53 @@
   </header>
 
   <main id="content">
- <section class="hero">
-  <div class="hero__banner">
-    <img src="assets/jason-banner.jpg" alt="Header image for The Security Brief." />
-  </div>
-
-  <div class="wrap hero__content">
-    <div class="hero__card hero__card--split">
-      <div class="hero__main">
-        <div class="hero__identity">
-          <img class="avatar" src="assets/jason-avatar.png" alt="Portrait of Jason Jay Smart." />
-          <div class="hero__text">
-            <p class="eyebrow">Official host page</p>
-            <h1>Jason Jay Smart</h1>
-            <p class="handle">@jasonjaysmart@securitybrief.jasonjaysmart.com</p>
-            <div class="badges">
-              <span class="badge">The Security Brief</span>
-              <span class="badge">Real-Time Security Briefings</span>
-              <span class="badge">Commonshub hosted</span>
-            </div>
-          </div>
-        </div>
-
-        <p class="hero__lede">
-          A working room for researchers, journalists, and operators analyzing power,
-          propaganda, and geopolitical strategy.
-        </p>
-
-        <div class="hero__cta">
-          <a class="button button--primary" href="https://securitybrief.jasonjaysmart.com/@jasonjaysmart" target="_blank" rel="noopener me">Follow on Mastodon</a>
-          <a class="button button--secondary" href="#support">Support this community</a>
-        </div>
+    <section class="hero">
+      <div class="hero__banner">
+        <img src="assets/jason-banner.jpg" alt="Header image for The Security Brief." />
       </div>
 
-      <aside class="hero__links-card" id="links">
-        <p class="section-label">Official links</p>
-        <h2>Follow Jason’s work</h2>
-        <ul class="link-list">
-          <li><a href="https://jasonjaysmart.com" target="_blank" rel="noopener">Official website</a></li>
-          <li><a href="https://www.youtube.com/@JasonJaySmart" target="_blank" rel="noopener">YouTube</a></li>
-          <li><a href="https://substack.com/@jasonjaysmart" target="_blank" rel="noopener">Substack</a></li>
-        </ul>
-      </aside>
-    </div>
-  </div>
-</section>
+      <div class="wrap hero__content">
+        <div class="hero__card hero__card--split">
+          <div class="hero__main">
+            <div class="hero__identity">
+              <img class="avatar" src="assets/jason-avatar.png" alt="Portrait of Jason Jay Smart." />
+              <div class="hero__text">
+                <p class="eyebrow">Official community hub</p>
+                <h1>Jason Jay Smart</h1>
+                <p class="handle">@jasonjaysmart@securitybrief.jasonjaysmart.com</p>
+                <div class="badges">
+                  <span class="badge">The Security Brief</span>
+                  <span class="badge">Real-Time Security Briefings</span>
+                  <span class="badge">Commonshub hosted</span>
+                  <span class="badge">Invite only</span>
+                </div>
+              </div>
+            </div>
+
+            <p class="hero__lede">
+              A working room for researchers, journalists, and operators analyzing power,
+              propaganda, and geopolitical strategy.
+            </p>
+
+            <div class="hero__cta">
+              <a class="button button--primary" href="#join">Join this community</a>
+              <a class="button button--secondary" href="#support">Support this community</a>
+              <a class="button button--ghost" href="https://securitybrief.jasonjaysmart.com/@jasonjaysmart" target="_blank" rel="noopener">Follow on Mastodon</a>
+            </div>
+          </div>
+
+          <aside class="hero__links-card" id="links">
+            <p class="section-label">Official links</p>
+            <h2>Follow Jason’s work</h2>
+            <ul class="link-list">
+              <li><a href="https://jasonjaysmart.com" target="_blank" rel="noopener">Official website</a></li>
+              <li><a href="https://www.youtube.com/@JasonJaySmart" target="_blank" rel="noopener">YouTube</a></li>
+              <li><a href="https://substack.com/@jasonjaysmart" target="_blank" rel="noopener">Substack</a></li>
+            </ul>
+          </aside>
+        </div>
+      </div>
+    </section>
 
     <section class="wrap section" id="preview">
       <article class="section-card">
@@ -119,14 +122,6 @@
 
     <section class="wrap grid section">
       <div class="main-column">
-        <article class="section-card">
-          <p class="section-label">About the host</p>
-          <h2>Jason Jay Smart</h2>
-          <p>
-            I’m a national security analyst reporting on Russia’s war against Ukraine and the structures of authoritarian power. My work connects real-time developments with historical and strategic context. I host this space to maintain an ongoing briefing with serious participants tracking these issues.
-          </p>
-        </article>
-
         <article class="section-card" id="about-community">
           <p class="section-label">About the community</p>
           <h2>The Security Brief</h2>
@@ -141,69 +136,80 @@
           </p>
         </article>
 
+        <article class="section-card">
+          <p class="section-label">About the host</p>
+          <h2>Jason Jay Smart</h2>
+          <p>
+            I’m a national security analyst reporting on Russia’s war against Ukraine and the structures of authoritarian power. My work connects real-time developments with historical and strategic context. I host this space to maintain an ongoing briefing with serious participants tracking these issues.
+          </p>
+        </article>
 
+        <article class="section-card">
+          <p class="section-label">Why this space exists</p>
+          <h2>Direct, durable, signal-first discussion</h2>
+          <p>
+            The Security Brief exists as a direct space for serious participants who want context beyond the news cycle. No algorithm decides what matters here. The goal is a durable public record of informed discussion around national security and strategic conflict.
+          </p>
+        </article>
       </div>
 
       <aside class="side-column">
+        <section class="section-card" id="join">
+          <p class="section-label">Join</p>
+          <h2>Enter The Security Brief</h2>
+          <p>
+            This community is currently structured as an invite-only Mastodon space. In the first MVP version of the hub, this section establishes the primary join path and will later be wired to generate a one-time-use invite link for new participants.
+          </p>
+          <div class="support-modules">
+            <div class="support-module">
+              <h3>Current access model</h3>
+              <p>Invite-only community access for serious participants following these issues closely.</p>
+            </div>
+            <div class="support-module">
+              <h3>Primary action</h3>
+              <p>This CTA will later trigger one-time invite generation with no contribution gating in the first live version.</p>
+              <a class="button button--primary" href="#">Join placeholder</a>
+            </div>
+          </div>
+        </section>
+
         <section class="section-card support-card" id="support">
           <p class="section-label">Support</p>
           <h2>Help sustain this community</h2>
           <p>
-            This block is designed to hold Stripe-powered monthly support, one-time contributions, and campaign fundraising modules.
+            Financial support is not yet enabled for this prototype. This section shows where monthly support, one-time contributions, and campaign support will appear once Stripe integration is added.
           </p>
 
           <div class="support-modules">
             <div class="support-module">
               <h3>Monthly support</h3>
-              <p>Reserved for a Stripe recurring support button or pricing card.</p>
+              <p>Reserved for a recurring support option once contributions are enabled.</p>
               <a class="button button--ghost" href="#">Monthly support placeholder</a>
             </div>
             <div class="support-module">
               <h3>One-time contribution</h3>
-              <p>Reserved for a Stripe one-time donation button.</p>
+              <p>Reserved for a one-time contribution option.</p>
               <a class="button button--ghost" href="#">One-time support placeholder</a>
             </div>
             <div class="support-module">
-              <h3>Campaign donation</h3>
-              <p>Reserved for a campaign-based Stripe module or CTA.</p>
+              <h3>Campaign support</h3>
+              <p>Reserved for campaign-based support when needed.</p>
               <a class="button button--ghost" href="#">Campaign support placeholder</a>
             </div>
           </div>
         </section>
-<!-- 
-        <section class="section-card">
-          <p class="section-label">Supporter access</p>
-          <h2>Future contributor invite flow</h2>
-          <p>
-            This reserved block can later issue single-use community invites after a successful Stripe webhook.
-          </p>
-          <p class="small-muted">Current state: placeholder only.</p>
-        </section>
-
-        <section class="section-card">
-          <p class="section-label">Prototype notes</p>
-          <h2>How to evolve this page</h2>
-          <ol class="notes-list">
-            <li>Replace the placeholder support buttons with Stripe plugin modules.</li>
-            <li>Swap the sample preview cards for live Mastodon posts or RSS-fed excerpts.</li>
-            <li>Keep the verification link hidden in markup rather than explaining it in the UI.</li>
-            <li>Hand this page to V as the visual model for the WordPress multisite template.</li>
-          </ol>
-        </section>
-          -->
       </aside>
     </section>
-      
 
-                <!-- Required for Mastodon verification -->
-        <a class="visually-hidden" rel="me" href="https://securitybrief.jasonjaysmart.com/@jasonjaysmart">Mastodon</a>
+    <!-- Required for Mastodon verification -->
+    <a class="visually-hidden" rel="me" href="https://securitybrief.jasonjaysmart.com/@jasonjaysmart">Mastodon</a>
   </main>
 
   <footer class="site-footer">
     <div class="wrap footer__inner">
       <div>
         <p class="footer__title">The Security Brief</p>
-        <p class="small-muted">Hosted on Commonshub — prototype identity and support page</p>
+        <p class="small-muted">Hosted on Commonshub — prototype community hub</p>
       </div>
       <div class="footer__links">
         <a href="https://securitybrief.jasonjaysmart.com/@jasonjaysmart" target="_blank" rel="noopener">Official Mastodon profile</a>

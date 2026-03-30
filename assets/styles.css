@@ -241,3 +241,23 @@ code {
     max-width: 100%;
   }
 }
+
+.hub-actions__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  align-items: stretch;
+}
+
+.support-card,
+.join-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (max-width: 900px) {
+  .hub-actions__grid {
+    grid-template-columns: 1fr;
+  }
+}

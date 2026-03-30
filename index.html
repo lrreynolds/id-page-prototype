@@ -24,10 +24,10 @@
         </div>
       </div>
       <nav class="site-nav" aria-label="Primary">
-        <a href="#preview">Preview</a>
         <a href="#about-community">About</a>
-        <a href="#join">Join</a>
         <a href="#support">Support</a>
+        <a href="#join">Join</a>
+        <a href="#signals">Signals</a>
         <a href="#links">Links</a>
       </nav>
     </div>
@@ -82,48 +82,10 @@
       </div>
     </section>
 
-    <section class="wrap section" id="preview">
-      <article class="section-card">
-        <div class="section-header">
-          <div>
-            <p class="section-label">Preview</p>
-            <h2>Latest from The Security Brief</h2>
-          </div>
-          <p class="small-muted">Prototype version using sample posts. Later this can be swapped for a live Mastodon feed preview.</p>
-        </div>
-
-        <div class="post-preview-grid">
-          <article class="post-card">
-            <div class="post-card__meta">
-              <span class="post-pill">Pinned</span>
-              <span>Welcome</span>
-            </div>
-            <p>Welcome to The Security Brief. This space tracks national security developments, authoritarian power dynamics, and strategic conflict in real time. If you're working on these issues, introduce yourself and share what you're currently monitoring.</p>
-          </article>
-
-          <article class="post-card">
-            <div class="post-card__meta">
-              <span class="post-pill">Guidance</span>
-              <span>How to participate</span>
-            </div>
-            <p>Bring sources, context, and corrections. Signal-first discussion helps everyone track events more clearly and build a durable record beyond the news cycle.</p>
-          </article>
-
-          <article class="post-card">
-            <div class="post-card__meta">
-              <span class="post-pill">Access</span>
-              <span>Mobile + apps</span>
-            </div>
-            <p>You can follow and participate in this space from any Mastodon-compatible mobile app. Search for the server domain securitybrief.jasonjaysmart.com when signing in.</p>
-          </article>
-        </div>
-      </article>
-    </section>
-
     <section class="wrap grid section">
       <div class="main-column">
         <article class="section-card" id="about-community">
-          <p class="section-label">About the community</p>
+          <p class="section-label">Why this space exists</p>
           <h2>The Security Brief</h2>
           <p>
             This is the live signal space for tracking national security, authoritarian power, and the strategic conflicts shaping the international system. It exists to provide real-time context and durable analysis around geopolitical events that are often fragmented across the news cycle.
@@ -132,7 +94,7 @@
             The space is for analysts, journalists, researchers, policy professionals, and highly engaged observers already working in or closely following national security and geopolitical strategy. Contributions are expected to bring context, sources, corrections, and informed analysis that deepen the signal.
           </p>
           <p>
-            This space is independent and not shaped by algorithms or engagement incentives. The goal is to maintain a durable record of informed discussion that persists beyond the news cycle and supports serious participants working to understand complex geopolitical realities.
+            This community is meant to remain direct, source-driven, and durable. The goal is not engagement for its own sake, but serious participants helping one another understand complex geopolitical realities in real time.
           </p>
         </article>
 
@@ -143,62 +105,109 @@
             I’m a national security analyst reporting on Russia’s war against Ukraine and the structures of authoritarian power. My work connects real-time developments with historical and strategic context. I host this space to maintain an ongoing briefing with serious participants tracking these issues.
           </p>
         </article>
-
-        <article class="section-card">
-          <p class="section-label">Why this space exists</p>
-          <h2>Direct, durable, signal-first discussion</h2>
-          <p>
-            The Security Brief exists as a direct space for serious participants who want context beyond the news cycle. No algorithm decides what matters here. The goal is a durable public record of informed discussion around national security and strategic conflict.
-          </p>
-        </article>
       </div>
 
       <aside class="side-column">
-        <section class="section-card" id="join">
-          <p class="section-label">Join</p>
-          <h2>Enter The Security Brief</h2>
-          <p>
-            This community is currently structured as an invite-only Mastodon space. In the first MVP version of the hub, this section establishes the primary join path and will later be wired to generate a one-time-use invite link for new participants.
-          </p>
-          <div class="support-modules">
-            <div class="support-module">
-              <h3>Current access model</h3>
-              <p>Invite-only community access for serious participants following these issues closely.</p>
-            </div>
-            <div class="support-module">
-              <h3>Primary action</h3>
-              <p>This CTA will later trigger one-time invite generation with no contribution gating in the first live version.</p>
-              <a class="button button--primary" href="#">Join placeholder</a>
-            </div>
-          </div>
-        </section>
-
         <section class="section-card support-card" id="support">
           <p class="section-label">Support</p>
           <h2>Help sustain this community</h2>
           <p>
-            Financial support is not yet enabled for this prototype. This section shows where monthly support, one-time contributions, and campaign support will appear once Stripe integration is added.
+            A durable community needs support that is aligned with its purpose. Commonshub is built around the idea that serious communities should be able to sustain themselves directly rather than defaulting to an attention economy.
+          </p>
+          <p>
+            Financial support is not yet enabled for this prototype, but this is where recurring support, one-time contributions, and campaign support will appear once contributions are turned on.
           </p>
 
           <div class="support-modules">
             <div class="support-module">
               <h3>Monthly support</h3>
-              <p>Reserved for a recurring support option once contributions are enabled.</p>
+              <p>Reserved for recurring support once contributions are enabled.</p>
               <a class="button button--ghost" href="#">Monthly support placeholder</a>
             </div>
             <div class="support-module">
               <h3>One-time contribution</h3>
-              <p>Reserved for a one-time contribution option.</p>
+              <p>Reserved for one-time contributions from supporters of this work.</p>
               <a class="button button--ghost" href="#">One-time support placeholder</a>
             </div>
             <div class="support-module">
               <h3>Campaign support</h3>
-              <p>Reserved for campaign-based support when needed.</p>
+              <p>Reserved for focused funding drives when the owner chooses to run one.</p>
               <a class="button button--ghost" href="#">Campaign support placeholder</a>
             </div>
           </div>
         </section>
+
+        <section class="section-card" id="join">
+          <p class="section-label">Join</p>
+          <h2>Enter The Security Brief</h2>
+          <p>
+            This community is currently structured as an invite-only Mastodon space. In the first live version of the hub, this section will generate a one-time-use invite for new participants.
+          </p>
+
+          <div class="support-modules">
+            <div class="support-module">
+              <h3>Current access model</h3>
+              <p>Invite-only access for serious participants following these issues closely.</p>
+            </div>
+            <div class="support-module">
+              <h3>Primary action</h3>
+              <p>This CTA will later generate a one-time-use invite with no contribution gating in the first live version.</p>
+              <a class="button button--primary" href="#">Join placeholder</a>
+            </div>
+          </div>
+        </section>
       </aside>
+    </section>
+
+    <section class="wrap section" id="signals">
+      <article class="section-card">
+        <div class="section-header">
+          <div>
+            <p class="section-label">Status + Signals</p>
+            <h2>Current activity from the host</h2>
+          </div>
+          <p class="small-muted">Prototype version using pinned and recent owner posts. Later this can be fed from Mastodon directly.</p>
+        </div>
+
+        <div class="support-modules" style="margin-bottom: 20px;">
+          <div class="support-module">
+            <h3>Status</h3>
+            <p><strong>Operational</strong> · Invite-only access · Owner actively posting</p>
+          </div>
+        </div>
+
+        <div class="post-preview-grid">
+          <article class="post-card">
+            <div class="post-card__meta">
+              <span class="post-pill">Pinned</span>
+              <span>Welcome</span>
+            </div>
+            <p>
+              Welcome to The Security Brief. This space tracks national security developments, authoritarian power dynamics, and strategic conflict in real time. If you're working on these issues, introduce yourself and share what you're currently monitoring.
+            </p>
+          </article>
+
+          <article class="post-card">
+            <div class="post-card__meta">
+              <span class="post-pill">Pinned</span>
+              <span>How to participate</span>
+            </div>
+            <p>
+              Bring sources, context, and corrections. Signal-first discussion helps everyone track events more clearly and build a durable record beyond the news cycle.
+            </p>
+          </article>
+
+          <article class="post-card">
+            <div class="post-card__meta">
+              <span class="post-pill">Recent</span>
+              <span>Owner post</span>
+            </div>
+            <p>
+              You can follow and participate in this space from any Mastodon-compatible mobile app. Search for the server domain securitybrief.jasonjaysmart.com when signing in.
+            </p>
+          </article>
+        </div>
+      </article>
     </section>
 
     <!-- Required for Mastodon verification -->

@@ -405,4 +405,20 @@ code {
   }
 }
 
+#about-community,
+#support,
+#join,
+#signals,
+#links {
+  scroll-margin-top: 120px;
+}
 
+@media (max-width: 640px) {
+  #about-community,
+  #support,
+  #join,
+  #signals,
+  #links {
+    scroll-margin-top: 145px;
+  }
+}

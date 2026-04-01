@@ -164,6 +164,26 @@ code {
   color: #d9e0ff;
 }
 
+.hub-actions__grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 22px;
+  align-items: stretch;
+}
+
+.support-card,
+.join-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1.2fr 0.8fr;
+  gap: 22px;
+  align-items: stretch;
+}
 
 @media (max-width: 640px) {
   .site-header {
@@ -368,19 +388,6 @@ code {
   }
 }
 
-.hub-actions__grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 22px;
-  align-items: stretch;
-}
-
-.support-card,
-.join-card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-}
 
 
 @media (max-width: 900px) {
@@ -394,9 +401,4 @@ code {
   }
 }
 
-.about-grid {
-  display: grid;
-  grid-template-columns: 1.2fr 0.8fr;
-  gap: 22px;
-  align-items: stretch;
-}
+

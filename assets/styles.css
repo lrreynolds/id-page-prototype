@@ -89,6 +89,10 @@ img { max-width: 100%; display: block; }
 .hero__identity { display: flex; gap: 24px; align-items: end; }
 .avatar { width: 144px; height: 144px; object-fit: cover; border-radius: 22px; border: 2px solid rgba(255,255,255,.18); }
 
+.hero__text {
+  min-width: 0;
+}
+
 .hero__text h1 {
   margin: .15rem 0;
   font-size: clamp(2.3rem, 5vw, 4rem);
